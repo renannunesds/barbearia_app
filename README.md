@@ -2,7 +2,7 @@
 
 ---
 
-## 👥 Equipa
+## 👥 Equipe
 
 - **Renan Nunes de Souza**
 - **Daniel Francisco de Maria da Fonseca Rincon**
@@ -12,14 +12,14 @@
 
 ## 🎯 Objetivo
 
-Desenvolvimento de uma aplicação móvel multiplataforma (Android/iOS) utilizando a framework Flutter e a linguagem Dart. A aplicação atuará como a interface front-end mobile, consumindo a API RESTful desenvolvida previamente em Spring Boot, visando automatizar e centralizar os agendamentos e a gestão operacional da barbearia.
+Desenvolvimento de um aplicativo móvel multiplataforma (Android/iOS) utilizando a framework Flutter e a linguagem Dart. O aplicativo atuará como a interface front-end mobile, consumindo a API RESTful desenvolvida previamente em Spring Boot, visando automatizar e centralizar os agendamentos e a gestão operacional da barbearia.
 
 ---
 
 ## 💈 Público-alvo
 
-- **Clientes:** Utilizadores que procuram agendar, acompanhar o histórico e cancelar cortes de cabelo e barba diretamente pelo smartphone, de forma autónoma.
-- **Barbeiros:** Profissionais que necessitam de uma ferramenta prática para visualizar a agenda diária e atualizar o estado dos serviços prestados em tempo real.
+- **Clientes:** Usuários que buscam agendar, acompanhar o histórico e cancelar cortes de cabelo e barba diretamente pelo smartphone, de forma autônoma.
+- **Barbeiros:** Profissionais que necessitam de uma ferramenta prática para visualizar a agenda diária e atualizar o status dos serviços prestados em tempo real.
 
 ---
 
@@ -27,38 +27,38 @@ Desenvolvimento de uma aplicação móvel multiplataforma (Android/iOS) utilizan
 
 **Requisitos Funcionais (RF):**
 
-- **RF01:** O utilizador deve realizar o registo e autenticação (login) na aplicação.
-- **RF02:** O utilizador deve visualizar a lista de barbeiros e os serviços disponíveis.
-- **RF03:** O utilizador deve selecionar datas e horários livres para confirmar um agendamento.
-- **RF04:** O utilizador deve consultar o seu histórico de agendamentos e solicitar cancelamentos.
-- **RF05:** O barbeiro deve aceder à sua agenda diária e alterar o estado dos atendimentos (ex: pendente, concluído, cancelado).
+- **RF01:** O usuário deve realizar cadastro e autenticação (login) no aplicativo.
+- **RF02:** O usuário deve visualizar a lista de barbeiros e os serviços disponíveis.
+- **RF03:** O usuário deve selecionar datas e horários livres para confirmar um agendamento.
+- **RF04:** O usuário deve consultar seu histórico de agendamentos e solicitar cancelamentos.
+- **RF05:** O barbeiro deve acessar sua agenda diária e alterar o status dos atendimentos (ex: pendente, concluído, cancelado).
 
 **Requisitos Não Funcionais (RNF):**
 
-- **RNF01:** A aplicação será construída na framework Flutter (linguagem Dart).
+- **RNF01:** O aplicativo será construído na framework Flutter (linguagem Dart).
 - **RNF02:** A comunicação de dados ocorrerá via requisições HTTP, consumindo os endpoints da API.
-- **RNF03:** A interface utilizará componentes nativos do Material Design, implementando navegação intuitiva por separadores (`BottomNavigationBar`).
+- **RNF03:** A interface utilizará componentes nativos do Material Design, implementando navegação intuitiva por abas (`BottomNavigationBar`).
 
 ---
 
 ## 📊 Diagramas
 
 **1. Diagrama de Classes (Modelos Front-end no Flutter)**
-Reflete o mapeamento dos DTOs recebidos da API no Dart, contemplando a herança de perfis de utilizador e os enumeradores de estado, garantindo a tipagem forte dos dados recebidos.
+Reflete o mapeamento dos DTOs recebidos da API no Dart, contemplando a herança de perfis de usuário e os enumeradores de status, garantindo a tipagem forte dos dados recebidos.
 
 *(Insira a imagem do seu Diagrama de Classes aqui usando: `![Diagrama de Classes](nome_da_imagem.png)`)*
 
 **2. Diagrama Entidade-Relacionamento (DER)**
-Representação da estrutura da base de dados do back-end que sustenta as operações e os relacionamentos consumidos pela aplicação móvel.
+Representação da estrutura do banco de dados do back-end que sustenta as operações e os relacionamentos consumidos pelo aplicativo móvel.
 
 *(Insira a imagem do seu Diagrama DER aqui usando: `![Diagrama DER](nome_da_imagem.png)`)*
 
 ---
 
-## 🛠️ Organização da equipa para desenvolvimento
+## 🛠️ Organização da equipe para desenvolvimento
 
-A equipa adotará um fluxo de trabalho modularizado no front-end, com as seguintes atribuições para o desenvolvimento em Flutter:
+A equipe adotará um fluxo de trabalho modularizado no front-end, com as seguintes atribuições para o desenvolvimento em Flutter:
 
-- **Renan Nunes de Souza** — *Estrutura base do projeto, roteamento de navegação, Ecrã de Login/Registo e integração HTTP da Home do Cliente.*
-- **Daniel Francisco de Maria da Fonseca Rincon** — *Módulo de Agendamento do Cliente, desenvolvendo a interface de calendário, o ecrã de confirmação de horários e a lógica da listagem de histórico.*
-- **Ryan Victor Carvalho de Oliveira** — *Módulo do Barbeiro, desenvolvendo o painel de agenda diária e o ecrã de gestão para alteração do estado de atendimento.*
+- **Renan Nunes de Souza** — *Estrutura base do projeto, roteamento de navegação, Tela de Login/Cadastro e integração HTTP da Home do Cliente.*
+- **Daniel Francisco de Maria da Fonseca Rincon** — *Módulo de Agendamento do Cliente, desenvolvendo a interface de calendário, a tela de confirmação de horários e a lógica da listagem de histórico.*
+- **Ryan Victor Carvalho de Oliveira** — *Módulo do Barbeiro, desenvolvendo o painel de agenda diária e a tela de gestão para alteração do status de atendimento.*
