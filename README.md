@@ -1,22 +1,22 @@
-Título
+📱 Título
 BarberApp: Sistema Mobile para Agendamento e Gestão de Barbearia
 
-Equipe
+👥 Equipe
 Renan Nunes de Souza
 
 Daniel Francisco de Maria da Fonseca Rincon
 
 Ryan Victor Carvalho de Oliveira
 
-Objetivo
+🎯 Objetivo
 Desenvolvimento de um aplicativo móvel multiplataforma (Android/iOS) utilizando a framework Flutter e a linguagem Dart. O aplicativo atuará como a interface front-end mobile, consumindo a API RESTful desenvolvida previamente em Spring Boot, visando automatizar e centralizar os agendamentos e a gestão operacional da barbearia.
 
-Público alvo
+💈 Público alvo
 Clientes: Usuários que buscam agendar, acompanhar o histórico e cancelar cortes de cabelo e barba diretamente pelo smartphone, de forma autônoma.
 
 Barbeiros: Profissionais que necessitam de uma ferramenta prática para visualizar a agenda diária e atualizar o status dos serviços prestados em tempo real.
 
-Requisitos
+⚙️ Requisitos
 Requisitos Funcionais (RF):
 
 RF01: O usuário deve realizar cadastro e autenticação (login) no aplicativo.
@@ -37,18 +37,18 @@ RNF02: A comunicação de dados ocorrerá via requisições HTTP, consumindo os 
 
 RNF03: A interface utilizará componentes nativos do Material Design, implementando navegação intuitiva por abas (BottomNavigationBar).
 
-Diagramas
+📊 Diagramas
 1. Diagrama de Classes (Modelos Front-end no Flutter)
 Reflete o mapeamento dos DTOs recebidos da API no Dart, contemplando a herança de perfis de usuário e os enumeradores de status.(Insira sua imagem aqui: ![Diagrama de Classes](nome_do_arquivo.png))
 
 2. Diagrama Entidade-Relacionamento (DER)
 Representação da estrutura de banco de dados do back-end que sustenta as operações e os relacionamentos consumidos pelo aplicativo móvel.(Insira sua imagem aqui: ![Diagrama DER](nome_do_arquivo.png))
 
-Organização da equipe para desenvolvimento
+🛠️ Organização da equipe para desenvolvimento
 A equipe adotará um fluxo de trabalho modularizado no front-end, com as seguintes atribuições para o desenvolvimento em Flutter:
 
-Renan Nunes de Souza: Estrutura base do projeto, roteamento de navegação, Tela de Login/Cadastro e integração HTTP da Home do Cliente.
+🏗️ Renan Nunes de Souza: Estrutura base do projeto, roteamento de navegação, Tela de Login/Cadastro e integração HTTP da Home do Cliente.
 
-Daniel Francisco de Maria da Fonseca Rincon: Módulo de Agendamento do Cliente, desenvolvendo a interface de calendário, a tela de confirmação de horários e a lógica da listagem de histórico.
+📅 Daniel Francisco de Maria da Fonseca Rincon: Módulo de Agendamento do Cliente, desenvolvendo a interface de calendário, a tela de confirmação de horários e a lógica da listagem de histórico.
 
-Ryan Victor Carvalho de Oliveira: Módulo do Barbeiro, desenvolvendo o painel de agenda diária e a tela de gestão para alteração do status de atendimento.
+✂️ Ryan Victor Carvalho de Oliveira: Módulo do Barbeiro, desenvolvendo o painel de agenda diária e a tela de gestão para alteração do status de atendimento.
