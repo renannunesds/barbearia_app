@@ -27,17 +27,18 @@ Desenvolvimento de um aplicativo móvel multiplataforma (Android/iOS) utilizando
 
 **Requisitos Funcionais (RF):**
 
-- **RF01:** O usuário deve realizar cadastro e autenticação (login) no aplicativo.
-- **RF02:** O usuário deve visualizar a lista de barbeiros e os serviços disponíveis.
-- **RF03:** O usuário deve selecionar datas e horários livres para confirmar um agendamento.
-- **RF04:** O usuário deve consultar seu histórico de agendamentos e solicitar cancelamentos.
-- **RF05:** O barbeiro deve acessar sua agenda diária e alterar o status dos atendimentos (ex: pendente, concluído, cancelado).
+- **RF01 (Usuários):** O aplicativo deve suportar o cadastro segregado entre `Clientes` e `Barbeiros`, compartilhando atributos comuns de acesso para o sistema de login.
+- **RF02 (Catálogo):** O aplicativo deve permitir a visualização e gestão do catálogo de `Serviços` (medidos por tempo de duração) e `Produtos` (medidos por quantidade em estoque).
+- **RF03 (Agendamentos):** O aplicativo deve permitir a criação de reservas vinculando o Cliente, o Barbeiro e o Serviço escolhido em datas e horários específicos.
+- **RF04 (Validação):** O aplicativo deve refletir o bloqueio automático de agendamentos caso o Barbeiro solicitado já possua um atendimento registrado no mesmo dia e horário.
+- **RF05 (Financeiro):** O aplicativo deve processar os pagamentos vinculados; ao confirmar um pagamento, o agendamento correspondente deve atualizar automaticamente para o status `CONCLUIDO`.
+- **RF06 (Segurança):** O aplicativo deve bloquear qualquer tentativa de processar pagamento para serviços que estejam com o status `CANCELADO`.
 
 **Requisitos Não Funcionais (RNF):**
 
-- **RNF01:** O aplicativo será construído na framework Flutter (linguagem Dart).
-- **RNF02:** A comunicação de dados ocorrerá via requisições HTTP, consumindo os endpoints da API.
-- **RNF03:** A interface utilizará componentes nativos do Material Design, implementando navegação intuitiva por abas (`BottomNavigationBar`).
+- **RNF01 (Tecnologia Front-end):** O aplicativo será construído na framework Flutter utilizando a linguagem Dart.
+- **RNF02 (Comunicação HTTP):** O aplicativo realizará a comunicação assíncrona com o back-end em Spring Boot através de requisições HTTP enviando e recebendo dados em formato JSON.
+- **RNF03 (Interface e UX):** A interface utilizará componentes nativos do Material Design, implementando navegação intuitiva por abas (`BottomNavigationBar`).
 
 ---
 
