@@ -52,7 +52,7 @@ Reflete o mapeamento dos DTOs recebidos da API no Dart, contemplando a herança 
 **2. Diagrama Entidade-Relacionamento (DER)**
 Representação da estrutura de dados e das entidades de domínio que o aplicativo móvel irá consumir, mapear e gerenciar para o funcionamento das interfaces.
 
-<img width="354" height="1491" alt="Diagrama sem nome drawio (5)" src="https://github.com/user-attachments/assets/532d437c-4114-4825-b825-50a46b367496" />
+<img width="412" height="1522" alt="Diagrama sem nome drawio (6)" src="https://github.com/user-attachments/assets/9934c06a-bc92-4d85-a53a-2f9489c159a2" />
 
 ---
 
