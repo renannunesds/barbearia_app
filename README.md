@@ -1,6 +1,7 @@
-Proposta de Projeto: BarberApp - Agendamento Mobile
-Equipe
+Título
+BarberApp: Sistema Mobile para Agendamento e Gestão de Barbearia
 
+Equipe
 Renan Nunes de Souza
 
 Daniel Francisco de Maria da Fonseca Rincon
@@ -8,39 +9,46 @@ Daniel Francisco de Maria da Fonseca Rincon
 Ryan Victor Carvalho de Oliveira
 
 Objetivo
-Desenvolver um aplicativo móvel multiplataforma utilizando Flutter e Dart para gerenciar agendamentos de serviços de barbearia. O aplicativo atuará como a interface front-end mobile, consumindo a API RESTful e interagindo com a estrutura global do sistema (banco de dados e regras de negócio mapeadas no back-end), garantindo uma experiência responsiva para clientes e profissionais.
+Desenvolvimento de um aplicativo móvel multiplataforma (Android/iOS) utilizando a framework Flutter e a linguagem Dart. O aplicativo atuará como a interface front-end mobile, consumindo a API RESTful desenvolvida previamente em Spring Boot, visando automatizar e centralizar os agendamentos e a gestão operacional da barbearia.
 
-Público-alvo
+Público alvo
+Clientes: Usuários que buscam agendar, acompanhar o histórico e cancelar cortes de cabelo e barba diretamente pelo smartphone, de forma autônoma.
 
-Clientes: Usuários que buscam agendar, acompanhar e cancelar cortes de cabelo e barba pelo smartphone.
-
-Barbeiros: Profissionais que necessitam gerenciar sua agenda diária e atualizar o status dos serviços.
+Barbeiros: Profissionais que necessitam de uma ferramenta prática para visualizar a agenda diária e atualizar o status dos serviços prestados em tempo real.
 
 Requisitos
+Requisitos Funcionais (RF):
 
-RF01: O usuário deve realizar cadastro e autenticação no aplicativo.
+RF01: O usuário deve realizar cadastro e autenticação (login) no aplicativo.
 
-RF02: O usuário deve visualizar a lista de barbeiros e serviços disponíveis.
+RF02: O usuário deve visualizar a lista de barbeiros e os serviços disponíveis.
 
-RF03: O usuário deve selecionar datas e horários para confirmar um agendamento.
+RF03: O usuário deve selecionar datas e horários livres para confirmar um agendamento.
 
-RF04: O usuário deve consultar seu histórico e solicitar cancelamentos.
+RF04: O usuário deve consultar seu histórico de agendamentos e solicitar cancelamentos.
 
-RF05: O barbeiro deve acessar sua agenda e alterar o status dos atendimentos.
+RF05: O barbeiro deve acessar sua agenda diária e alterar o status dos atendimentos (ex: pendente, concluído, cancelado).
 
-RNF01: O aplicativo será desenvolvido em Flutter (Dart).
+Requisitos Não Funcionais (RNF):
 
-RNF02: A comunicação de dados ocorrerá via requisições HTTP (API RESTful JSON).
+RNF01: O aplicativo será construído na framework Flutter (linguagem Dart).
 
-RNF03: A interface utilizará componentes do Material Design com navegação em abas.
+RNF02: A comunicação de dados ocorrerá via requisições HTTP, consumindo os endpoints da API.
 
-Organização da equipe para desenvolvimento
-A equipe adotará um fluxo ágil dividido por módulos de funcionalidades no Flutter:
-
-Renan Nunes de Souza: Estrutura base do projeto, roteamento, Tela de Login/Cadastro e integração HTTP da Home do Cliente.
-
-Daniel: Módulo de Agendamento do Cliente, incluindo interface de calendário, tela de confirmação e lógica de gerenciamento de estado para o histórico.
-
-Ryan: Módulo do Barbeiro, desenvolvendo o painel de agenda diária e a tela de gestão de status de atendimento.
+RNF03: A interface utilizará componentes nativos do Material Design, implementando navegação intuitiva por abas (BottomNavigationBar).
 
 Diagramas
+1. Diagrama de Classes (Modelos Front-end no Flutter)
+Reflete o mapeamento dos DTOs recebidos da API no Dart, contemplando a herança de perfis de usuário e os enumeradores de status.(Insira sua imagem aqui: ![Diagrama de Classes](nome_do_arquivo.png))
+
+2. Diagrama Entidade-Relacionamento (DER)
+Representação da estrutura de banco de dados do back-end que sustenta as operações e os relacionamentos consumidos pelo aplicativo móvel.(Insira sua imagem aqui: ![Diagrama DER](nome_do_arquivo.png))
+
+Organização da equipe para desenvolvimento
+A equipe adotará um fluxo de trabalho modularizado no front-end, com as seguintes atribuições para o desenvolvimento em Flutter:
+
+Renan Nunes de Souza: Estrutura base do projeto, roteamento de navegação, Tela de Login/Cadastro e integração HTTP da Home do Cliente.
+
+Daniel Francisco de Maria da Fonseca Rincon: Módulo de Agendamento do Cliente, desenvolvendo a interface de calendário, a tela de confirmação de horários e a lógica da listagem de histórico.
+
+Ryan Victor Carvalho de Oliveira: Módulo do Barbeiro, desenvolvendo o painel de agenda diária e a tela de gestão para alteração do status de atendimento.
