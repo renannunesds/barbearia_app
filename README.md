@@ -61,5 +61,7 @@ Representação da estrutura de dados e das entidades de domínio que o aplicati
 A equipe adotará um fluxo de trabalho modularizado no front-end, com as seguintes atribuições para o desenvolvimento em Flutter:
 
 - **Renan Nunes de Souza** — *Desenvolvimento da Tela de Login e Cadastro, Tela Principal (Home do Cliente) e Tela de Perfil do Usuário. Responsável também pela configuração da estrutura base do projeto, roteamento de navegação e implementação da camada central de comunicação HTTP com a API.*
+  
 - **Daniel Francisco de Maria da Fonseca Rincon** — *Desenvolvimento das Telas do Módulo de Agendamento (interface de calendário e seleção de horários), Tela de Histórico do Cliente e Tela de Processamento de Pagamentos.*
+  
 - **Ryan Victor Carvalho de Oliveira** — *Desenvolvimento das Telas do Módulo do Barbeiro (painel de agenda diária e atualização de status de atendimento) e das Telas de Gestão do Catálogo (cadastro e listagem de Produtos e Serviços).*
