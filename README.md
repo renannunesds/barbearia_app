@@ -47,7 +47,7 @@ Desenvolvimento de um aplicativo móvel multiplataforma (Android/iOS) utilizando
 **1. Diagrama de Classes (Modelos Front-end no Flutter)**
 Reflete o mapeamento dos DTOs recebidos da API no Dart, contemplando a herança de perfis de usuário e os enumeradores de status, garantindo a tipagem forte dos dados recebidos.
 
-<img width="1521" height="1011" alt="image" src="https://github.com/user-attachments/assets/17cd204e-17fd-45d7-b998-90f60e5013eb" />
+<img width="1572" height="1032" alt="Diagramajunio1 drawio (1)" src="https://github.com/user-attachments/assets/c6318cbd-1fb1-40f5-a043-cdce94dfc6b2" />
 
 **2. Diagrama Entidade-Relacionamento (DER)**
 Representação da estrutura de dados e das entidades de domínio que o aplicativo móvel irá consumir, mapear e gerenciar para o funcionamento das interfaces.
