@@ -49,7 +49,7 @@ Reflete o mapeamento dos DTOs recebidos da API no Dart, contemplando a herança 
 *(Insira a imagem do seu Diagrama de Classes aqui usando: `![Diagrama de Classes](nome_da_imagem.png)`)*
 
 **2. Diagrama Entidade-Relacionamento (DER)**
-Representação da estrutura do banco de dados do back-end que sustenta as operações e os relacionamentos consumidos pelo aplicativo móvel.
+Representação da estrutura de dados e das entidades de domínio que o aplicativo móvel irá consumir, mapear e gerenciar para o funcionamento das interfaces.
 
 *(Insira a imagem do seu Diagrama DER aqui usando: `![Diagrama DER](nome_da_imagem.png)`)*
 
