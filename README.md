@@ -44,15 +44,17 @@ Desenvolvimento de um aplicativo móvel multiplataforma (Android/iOS) utilizando
 
 ## 📊 Diagramas
 
-**1. Diagrama de Classes (Modelos Front-end no Flutter)**
-Reflete o mapeamento dos DTOs recebidos da API no Dart, contemplando a herança de perfis de usuário e os enumeradores de status, garantindo a tipagem forte dos dados recebidos.
+A arquitetura e o fluxo de dados da aplicação foram modelados através dos seguintes diagramas:
 
-<img width="1572" height="1032" alt="Diagramajunio1 drawio (1)" src="https://github.com/user-attachments/assets/d260176e-2d8e-49fd-91d9-8d30202066e1" />
+1. **Mapa de Navegação (Fluxo de Telas):** Ilustra o roteamento do utilizador, ramificando o acesso e as ações entre a área do Cliente e o Painel do Barbeiro.
+   <img width="1212" height="852" alt="Diagrama sem nome drawio (7)" src="https://github.com/user-attachments/assets/db27b91d-cb8a-43df-a4a5-06b11fa01d63" />
 
-**2. Diagrama Entidade-Relacionamento (DER)**
-Representação da estrutura de dados e das entidades de domínio que o aplicativo móvel irá consumir, mapear e gerenciar para o funcionamento das interfaces.
+2. **Diagrama de Classes (Modelos Front-end):** Mapeia os DTOs, heranças de perfil e enumeradores estruturados no Flutter/Dart.
+   <img width="1572" height="1032" alt="Diagramajunio1 drawio (1)" src="https://github.com/user-attachments/assets/d260176e-2d8e-49fd-91d9-8d30202066e1" />
 
-<img width="412" height="1522" alt="Diagrama sem nome drawio (6)" src="https://github.com/user-attachments/assets/9934c06a-bc92-4d85-a53a-2f9489c159a2" />
+3. **Diagrama Entidade-Relacionamento (DER):** Representa a estrutura de dados, relacionamentos de domínio e as entidades consumidas via API.
+   <img width="412" height="1522" alt="Diagrama sem nome drawio (6)" src="https://github.com/user-attachments/assets/9934c06a-bc92-4d85-a53a-2f9489c159a2" />
+
 
 ---
 
@@ -60,8 +62,8 @@ Representação da estrutura de dados e das entidades de domínio que o aplicati
 
 A equipe adotará um fluxo de trabalho modularizado no front-end, com as seguintes atribuições para o desenvolvimento em Flutter:
 
-- **Renan Nunes de Souza** — *Desenvolvimento da Tela de Login e Cadastro, Tela Principal (Home do Cliente) e Tela de Perfil do Usuário. Responsável também pela configuração da estrutura base do projeto, roteamento de navegação e implementação da camada central de comunicação HTTP com a API.*
-  
 - **Daniel Francisco de Maria da Fonseca Rincon** — *Desenvolvimento das Telas do Módulo de Agendamento (interface de calendário e seleção de horários), Tela de Histórico do Cliente e Tela de Processamento de Pagamentos.*
-  
+-
+- **Renan Nunes de Souza** — *Desenvolvimento da Tela de Login e Cadastro, Tela Principal (Home do Cliente) e Tela de Perfil do Usuário. Responsável também pela configuração da estrutura base do projeto, roteamento de navegação e implementação da camada central de comunicação HTTP.*
+- 
 - **Ryan Victor Carvalho de Oliveira** — *Desenvolvimento das Telas do Módulo do Barbeiro (painel de agenda diária e atualização de status de atendimento) e das Telas de Gestão do Catálogo (cadastro e listagem de Produtos e Serviços).*
