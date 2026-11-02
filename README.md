@@ -53,6 +53,7 @@ A arquitetura e o fluxo de dados da aplicação foram modelados através dos seg
    <img width="1572" height="1032" alt="Diagramajunio1 drawio (1)" src="https://github.com/user-attachments/assets/d260176e-2d8e-49fd-91d9-8d30202066e1" />
 
 3. **Diagrama Entidade-Relacionamento (DER):** Representa a estrutura de dados, relacionamentos de domínio e as entidades consumidas via API.
+   
    <img width="412" height="1522" alt="Diagrama sem nome drawio (6)" src="https://github.com/user-attachments/assets/9934c06a-bc92-4d85-a53a-2f9489c159a2" />
 
 
