@@ -4,8 +4,8 @@
 
 ## 👥 Equipe
 
-- **Renan Nunes de Souza**
 - **Daniel Francisco de Maria da Fonseca Rincon**
+- **Renan Nunes de Souza**
 - **Ryan Victor Carvalho de Oliveira**
 
 ---
